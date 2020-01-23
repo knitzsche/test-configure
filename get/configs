@@ -1,2 +1,2 @@
 #!/bin/bash
-snapctl get $SNAP_NAME
+echo `snapctl get $SNAP_NAME age speed`
